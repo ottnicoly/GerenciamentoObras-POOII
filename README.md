@@ -49,6 +49,9 @@ ID_Material (PK, FK): Chave estrangeira que referencia o material.
 Explicação:
 
 Projeto é a entidade central, ligada a diversas outras entidades através de tabelas associativas, representando as relações N.
+
 Engenheiro e Operario têm relações Ncom Projeto através das tabelas associativas Alocacao_Engenheiro e Alocacao_Operario.
+
 Equipamento e Material também têm relações Ncom Projeto através das tabelas associativas Uso_Equipamento e Consumo_Material.
+
 As tabelas associativas ajudam a modelar as relações complexas entre as entidades, permitindo que um único projeto possa ter múltiplos engenheiros, operários, equipamentos, e materiais associados a ele, e vice-versa.
